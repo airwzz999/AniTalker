@@ -31,7 +31,8 @@ mkdir ckpts
 Go to https://huggingface.co/taocode/anitalker_ckpts/tree/main  
 then download all six models in path ~/AniTalker/ckpts/ 
 
-# npy Go to https://huggingface.co/datasets/taocode/anitalker_hubert_feature_samples/blob/main/monalisa.npy  
+# npy 
+Go to https://huggingface.co/datasets/taocode/anitalker_hubert_feature_samples/blob/main/monalisa.npy  
 then download monalisa.npy in path ~/AniTalker/test_demos/audios_hubert/ 
 ```
 ![](../assets/models_huggingface.png)
@@ -45,6 +46,6 @@ then download monalisa.npy in path ~/AniTalker/test_demos/audios_hubert/
 # 5. Modify log
 
 - dependencies: requirements.txt
-- use mps insted of cuda
+- use mps instead of cuda
 - change float64 to float32
 - PYTORCH_ENABLE_MPS_FALLBACK=1
